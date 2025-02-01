@@ -1,0 +1,10 @@
+name: sphere
+type: standard
+
+num_param_dimensions: 100
+min_param: -5.12
+max_param: 5.12
+
+min_bd: 0
+max_bd: 1
+qd_offset: 2500.0

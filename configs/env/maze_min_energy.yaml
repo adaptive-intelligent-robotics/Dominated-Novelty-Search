@@ -1,0 +1,12 @@
+name: maze_min_energy
+type: kheperax
+
+map_name: standard
+episode_length: 250
+mlp_policy_hidden_layer_sizes: [8]
+lasers_return_minus_one_if_out_of_range: True
+
+min_bd: 0.0
+max_bd: 1.0
+# Number of trajectory points to use as descriptor
+num_points_desc: 50

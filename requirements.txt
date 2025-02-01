@@ -1,0 +1,18 @@
+jax[cuda]
+flax
+brax
+numpy<2.0.0
+scikit-learn
+statsmodels
+seaborn
+ipython
+ipykernel
+hydra-core
+wandb
+mediapy
+
+# Dev
+pytest
+pytest-cov
+ruff
+mypy

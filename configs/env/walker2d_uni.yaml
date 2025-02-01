@@ -1,0 +1,12 @@
+name: walker2d_uni
+type: mujoco
+
+version: v1
+backend: spring
+
+episode_length: 1000
+
+min_bd: 0
+max_bd: 1
+min_param: -1000000000
+max_param: 1000000000

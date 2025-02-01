@@ -1,0 +1,4 @@
+name: adaptive_population
+
+max_size: 1024
+knn: 3 

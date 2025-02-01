@@ -1,0 +1,8 @@
+name: arm
+type: standard
+name: arm
+num_param_dimensions: 128
+min_bd: 0.0
+max_bd: 1.0
+min_param: 0.0
+max_param: 1.0

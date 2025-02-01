@@ -1,0 +1,15 @@
+hydra:
+  job:
+    chdir: True
+  run:
+    dir: ./output/${algo.name}/${env.name}/${population.name}/${now:%Y-%m-%d_%H%M%S_%f}
+
+defaults:
+  - _self_
+  - algo: aurora
+  - env: walker2d_uni
+  - population: grid_population
+
+seed: 0
+num_generations: 4000
+log_interval: 10

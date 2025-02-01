@@ -1,0 +1,7 @@
+name: rastrigin
+type: standard
+
+num_param_dimensions: 8
+min_param: 0.0
+max_param: 1.0
+qd_offset: 360.0

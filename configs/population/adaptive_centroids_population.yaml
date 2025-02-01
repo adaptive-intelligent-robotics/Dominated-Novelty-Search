@@ -1,0 +1,4 @@
+name: adaptive_centroids_population
+
+max_size: 1024
+n_init_cvt_samples: 10_000
